@@ -1,0 +1,1 @@
+console.log("Hello %c JS %c Project", `color:blue; font-size:70px; font-family:arial; font-weight:bold`, `color:red; font-size:50px; font-family:arial; font-weight:bold; background-color:blue`)
