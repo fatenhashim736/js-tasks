@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculator</title>
+    <style>
+        body {
+            background-image: url(/images/background1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="form" id="">
+
+        <div class="title">Calculator</div>
+
+        <div class="inputform">
+            <div class="input a1">
+                <input type="text" id="num1" class="input" placeholder=" ">
+                <div>
+                    <label for="num1" class="placeholder">Num1</label>
+                </div>
+            </div>
+
+            <div class="input a2">
+                <input type="text" id="num2" class="input" placeholder=" ">
+                <div>
+                    <label for="num2" class="placeholder">Num2</label>
+                </div>
+            </div>
+        </div>
+
+        <button class="sum" onclick="sumfun()">sum</button>
+
+        <button class="sub" onclick="subfun()">sub</button>
+
+        <button class="mult" onclick="multfun()">mult</button>
+
+        <button class="pow" onclick="powfun()">pow</button>
+
+
+        <div class="result" id="clear1">
+            <p>Result :</p>
+            <div class="res" id="results"></div>
+
+        </div>
+        <button class="clear" id="clearbtn" onclick="clearing()">clear</button>
+
+    </div>
+
+    <script src="js/js.js">
+    </script>
+
+
+
+</body>
+
+</html>

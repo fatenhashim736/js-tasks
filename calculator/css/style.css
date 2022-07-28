@@ -1,0 +1,145 @@
+body {
+    align-items: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.form {
+    background-color: rgb(201, 247, 248);
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 500px;
+    width: 550px;
+    padding: 30px;
+    margin-top: 50px;
+    box-shadow: 8px 8px 3px #73b4b0;
+}
+
+.title {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    /* border-style:; */
+    height: 40px;
+    background-color: #88ecdf;
+    border-radius: 10px;
+}
+
+.inputform {
+    align-items: center;
+    margin-left: 40px;
+}
+
+.input {
+    height: 40px;
+    position: relative;
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    outline: 0;
+    left: 50px;
+    top: -30px;
+    margin-left: -180px;
+}
+
+.placeholder {
+    left: -90px;
+    position: absolute;
+    top: -33px;
+    font-size: 25px;
+    background-color: #88ecdf;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.a1,
+.a2 {
+    top: 70px;
+    margin: 20px;
+    align-items: center;
+}
+
+button {
+    height: 50px;
+    width: 80px;
+    background-color: #88ecdf;
+    font-size: 25px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: antiquewhite;
+    box-shadow: 8px 8px 3px #73b4b0;
+    cursor: pointer;
+}
+
+.sum {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 270px;
+}
+
+.sub {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 370px;
+}
+
+.mult {
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 270px;
+}
+
+.pow {
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 370px;
+}
+
+.result {
+    font-size: 25px;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+.result .res {
+    font-size: 30px;
+    border-radius: 8px;
+    background-color: #88ecdf;
+    border-style: groove;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+    margin-left: 100px;
+    margin-top: -65px;
+    height: 30px;
+    position: absolute;
+}
+
+.clear {
+    height: 50px;
+    width: 80px;
+    background-color: #88ecdf;
+    font-size: 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 350px;
+    margin-top: -60px;
+    position: absolute;
+}
+
+.clear:hover {
+    background-color: antiquewhite;
+    box-shadow: 8px 8px 3px #73b4b0;
+    cursor: pointer;
+}
